@@ -1,4 +1,4 @@
-export * from './element-ui'
+export * from './topaz-ui'
 
-import * as ElementUI from './element-ui'
+import * as ElementUI from './topaz-ui'
 export default ElementUI

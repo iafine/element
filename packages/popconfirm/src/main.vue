@@ -36,9 +36,9 @@
 </template>
 
 <script>
-import ElPopover from 'element-ui/packages/popover';
-import ElButton from 'element-ui/packages/button';
-import {t} from 'element-ui/src/locale';
+import ElPopover from 'topaz-ui/packages/popover';
+import ElButton from 'topaz-ui/packages/button';
+import {t} from 'topaz-ui/src/locale';
 
 export default {
   name: 'ElPopconfirm',

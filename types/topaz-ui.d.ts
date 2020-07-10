@@ -87,11 +87,11 @@ export interface InstallationOptions {
   size: string
 }
 
-/** The version of element-ui */
+/** The version of topaz-ui */
 export const version: string
 
 /**
- * Install all element-ui components into Vue.
+ * Install all topaz-ui components into Vue.
  * Please do not invoke this method directly.
  * Call `Vue.use(ElementUI)` to install.
  */

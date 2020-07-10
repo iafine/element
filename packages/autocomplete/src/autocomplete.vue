@@ -59,13 +59,13 @@
 </template>
 <script>
   import debounce from 'throttle-debounce/debounce';
-  import ElInput from 'element-ui/packages/input';
-  import Clickoutside from 'element-ui/src/utils/clickoutside';
+  import ElInput from 'topaz-ui/packages/input';
+  import Clickoutside from 'topaz-ui/src/utils/clickoutside';
   import ElAutocompleteSuggestions from './autocomplete-suggestions.vue';
-  import Emitter from 'element-ui/src/mixins/emitter';
-  import Migrating from 'element-ui/src/mixins/migrating';
-  import { generateId } from 'element-ui/src/utils/util';
-  import Focus from 'element-ui/src/mixins/focus';
+  import Emitter from 'topaz-ui/src/mixins/emitter';
+  import Migrating from 'topaz-ui/src/mixins/migrating';
+  import { generateId } from 'topaz-ui/src/utils/util';
+  import Focus from 'topaz-ui/src/mixins/focus';
 
   export default {
     name: 'ElAutocomplete',

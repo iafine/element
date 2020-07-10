@@ -1,5 +1,5 @@
-import { isEqual, capitalize } from 'element-ui/src/utils/util';
-import { isDef } from 'element-ui/src/utils/shared';
+import { isEqual, capitalize } from 'topaz-ui/src/utils/util';
+import { isDef } from 'topaz-ui/src/utils/shared';
 
 let uid = 0;
 

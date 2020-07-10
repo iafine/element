@@ -2,6 +2,7 @@
   <div class="el-page-header">
     <div class="el-page-header__left" @click="$emit('back')">
       <i class="el-icon-back"></i>
+      <span>测试</span>
       <div class="el-page-header__title">
         <slot name="title">{{ title }}</slot>
       </div>
@@ -13,7 +14,7 @@
 </template>
 
 <script>
-import { t } from 'element-ui/src/locale';
+import { t } from 'topaz-ui/src/locale';
 export default {
   name: 'ElPageHeader',
 

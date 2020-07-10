@@ -1,10 +1,10 @@
 <script>
-  import Clickoutside from 'element-ui/src/utils/clickoutside';
-  import Emitter from 'element-ui/src/mixins/emitter';
-  import Migrating from 'element-ui/src/mixins/migrating';
-  import ElButton from 'element-ui/packages/button';
-  import ElButtonGroup from 'element-ui/packages/button-group';
-  import { generateId } from 'element-ui/src/utils/util';
+  import Clickoutside from 'topaz-ui/src/utils/clickoutside';
+  import Emitter from 'topaz-ui/src/mixins/emitter';
+  import Migrating from 'topaz-ui/src/mixins/migrating';
+  import ElButton from 'topaz-ui/packages/button';
+  import ElButtonGroup from 'topaz-ui/packages/button-group';
+  import { generateId } from 'topaz-ui/src/utils/util';
 
   export default {
     name: 'ElDropdown',

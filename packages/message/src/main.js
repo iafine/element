@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Main from './main.vue';
-import { PopupManager } from 'element-ui/src/utils/popup';
-import { isVNode } from 'element-ui/src/utils/vdom';
+import { PopupManager } from 'topaz-ui/src/utils/popup';
+import { isVNode } from 'topaz-ui/src/utils/vdom';
 let MessageConstructor = Vue.extend(Main);
 
 let instance;

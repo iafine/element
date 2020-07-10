@@ -13,10 +13,10 @@
 </template>
 
 <script type="text/babel">
-  import Locale from 'element-ui/src/mixins/locale';
-  import { isDate, range, getDayCountOfMonth, nextDate } from 'element-ui/src/utils/date-util';
-  import { hasClass } from 'element-ui/src/utils/dom';
-  import { arrayFindIndex, coerceTruthyValueToArray, arrayFind } from 'element-ui/src/utils/util';
+  import Locale from 'topaz-ui/src/mixins/locale';
+  import { isDate, range, getDayCountOfMonth, nextDate } from 'topaz-ui/src/utils/date-util';
+  import { hasClass } from 'topaz-ui/src/utils/dom';
+  import { arrayFindIndex, coerceTruthyValueToArray, arrayFind } from 'topaz-ui/src/utils/util';
 
   const datesInMonth = (year, month) => {
     const numOfDays = getDayCountOfMonth(year, month);

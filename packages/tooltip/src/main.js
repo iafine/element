@@ -1,7 +1,7 @@
-import Popper from 'element-ui/src/utils/vue-popper';
+import Popper from 'topaz-ui/src/utils/vue-popper';
 import debounce from 'throttle-debounce/debounce';
-import { addClass, removeClass, on, off } from 'element-ui/src/utils/dom';
-import { generateId } from 'element-ui/src/utils/util';
+import { addClass, removeClass, on, off } from 'topaz-ui/src/utils/dom';
+import { generateId } from 'topaz-ui/src/utils/util';
 import Vue from 'vue';
 
 export default {

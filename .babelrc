@@ -29,9 +29,9 @@
       ],
       "plugins": [
         ["module-resolver", {
-          "root": ["element-ui"],
+          "root": ["topaz-ui"],
           "alias": {
-            "element-ui/src": "element-ui/lib"
+            "topaz-ui/src": "topaz-ui/lib"
           }
         }]
       ]
