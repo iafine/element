@@ -31,21 +31,21 @@ then
   cd ../..
 
   # commit
-  # git add -A
-  # git commit -m "[build] $VERSION"
-  # npm version $VERSION --message "[release] $VERSION"
+  git add -A
+  git commit -m "[build] $VERSION"
+  npm version $VERSION --message "[release] $VERSION"
 
-  # # publish
-  # git push origin master
-  # git push origin refs/tags/v$VERSION
-  # git checkout dev
-  # git rebase master
-  # git push origin dev
+  # publish
+  git push origin master
+  git push origin refs/tags/v$VERSION
+  git checkout dev
+  git rebase master
+  git push origin dev
 
-  # if [[ $VERSION =~ "beta" ]]
-  # then
-  #   npm publish --tag beta
-  # else
-  #   npm publish
-  # fi
+  if [[ $VERSION =~ "beta" ]]
+  then
+    npm publish --tag beta
+  else
+    npm publish
+  fi
 fi
