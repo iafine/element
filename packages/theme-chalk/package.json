@@ -1,6 +1,6 @@
 {
   "name": "topaz-theme-chalk",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Element component chalk theme.",
   "main": "lib/index.css",
   "style": "lib/index.css",
